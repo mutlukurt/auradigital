@@ -96,11 +96,14 @@ export function Hero() {
       </motion.div>
 
       {/* scroll indicator */}
-      <div className="absolute bottom-6 left-1/2 z-[3] flex -translate-x-1/2 flex-col items-center gap-2.5">
-        <span className="font-display text-[0.65rem] tracking-[0.3em] text-white/30">
+      <div
+        className="absolute bottom-6 left-1/2 z-[3] flex -translate-x-1/2 flex-col items-center gap-2.5"
+        aria-hidden="true"
+      >
+        <span className="font-display text-[0.65rem] tracking-[0.3em] text-white/70">
           SCROLL
         </span>
-        <span className="relative h-10 w-px overflow-hidden bg-white/30">
+        <span className="relative h-10 w-px overflow-hidden bg-white/40">
           <span className="animate-scroll-dot absolute left-0 top-0 h-1/2 w-full bg-accent-orange" />
         </span>
       </div>

@@ -70,7 +70,7 @@ function ProjectRow({
           {project.name}
           <span className="text-accent-orange">.</span>
         </h3>
-        <p className="mb-6 max-w-[440px] text-white/50">{project.description}</p>
+        <p className="mb-6 max-w-[440px] text-white/70">{project.description}</p>
         <div className="flex flex-wrap gap-2.5">
           {project.tags.map((tag) => (
             <span

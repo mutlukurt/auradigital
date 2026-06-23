@@ -44,7 +44,8 @@ function MetaItem({
         {text}{" "}
         <a
           href={href}
-          className="border-b border-accent-orange pb-px text-white transition-colors hover:text-accent-orange-soft"
+          aria-label={`Read more about ${label.toLowerCase()}`}
+          className="border-b border-accent-orange pb-px text-white transition-colors hover:text-accent-orange-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-orange/60 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-800"
         >
           Read more →
         </a>

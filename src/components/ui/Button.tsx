@@ -21,10 +21,10 @@ const base =
 const variants: Record<Variant, string> = {
   primary: "bg-white text-black hover:bg-accent-orange hover:text-white",
   ghost:
-    "border border-white/10 text-white/70 hover:text-white hover:border-white/30",
+    "border border-white/10 text-white/80 hover:text-white hover:border-white/30",
   ghostLight:
     "border border-white/20 text-white backdrop-blur-sm hover:bg-white/10 hover:border-white",
-  link: "text-white/50 hover:text-white",
+  link: "text-white/70 hover:text-white",
   darkCta:
     "bg-black text-white border border-white/20 hover:bg-accent-orange hover:border-accent-orange",
 };

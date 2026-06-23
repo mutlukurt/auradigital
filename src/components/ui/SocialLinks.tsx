@@ -40,7 +40,7 @@ export function SocialLinks({ className }: { className?: string }) {
           key={s.label}
           href={s.href}
           aria-label={s.label}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-white/70 transition-all duration-300 hover:-translate-y-1 hover:border-white hover:bg-white hover:text-black"
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-white/80 transition-all duration-300 hover:-translate-y-1 hover:border-white hover:bg-white hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-orange/60 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
         >
           <svg
             viewBox="0 0 24 24"

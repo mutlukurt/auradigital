@@ -27,7 +27,7 @@ export function SectionHeading({
         <span
           className={cn(
             "section-tag mb-5 block",
-            dark && "text-white/30",
+            dark && "text-white/60",
           )}
         >
           {tag}

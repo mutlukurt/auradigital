@@ -55,7 +55,7 @@ function ServiceCard({
       </div>
       <div className="p-7 lg:p-10">
         <h3 className="mb-3 text-2xl lg:text-3xl">{service.name}</h3>
-        <p className="mb-6 text-white/50">{service.description}</p>
+        <p className="mb-6 text-white/70">{service.description}</p>
         <a
           href="#contact"
           className="inline-flex items-center gap-1.5 font-display text-sm text-white transition-all duration-300 hover:gap-3 hover:text-accent-orange-soft"

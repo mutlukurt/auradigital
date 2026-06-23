@@ -72,6 +72,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.variable}>
       <body className="font-body">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-white focus:px-5 focus:py-2.5 focus:font-display focus:text-sm focus:text-black"
+        >
+          Skip to content
+        </a>
         <div id="top" />
         {children}
       </body>

@@ -28,6 +28,14 @@
     line-height: 1.05;
   }
 
+  a, button {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-orange/60 focus-visible:ring-offset-2;
+  }
+
+  a {
+    @apply focus-visible:ring-offset-ink-950;
+  }
+
   ::selection {
     @apply bg-accent-orange/30 text-white;
   }
@@ -53,7 +61,7 @@
   }
 
   .section-tag {
-    @apply font-display text-xs uppercase tracking-[0.28em] text-white/40;
+    @apply font-display text-xs uppercase tracking-[0.28em] text-white/70;
   }
 }
 

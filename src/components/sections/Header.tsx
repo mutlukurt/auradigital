@@ -60,7 +60,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="font-display text-sm text-white/55 transition-colors hover:text-white"
+              className="font-display text-sm text-white/70 transition-colors hover:text-white"
             >
               {item.label}
             </a>
@@ -71,9 +71,10 @@ export function Header() {
         </div>
 
         <button
-          className="flex flex-col gap-[5px] p-2 lg:hidden"
+          className="flex flex-col gap-[5px] rounded-lg p-2.5 lg:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-orange/60 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
           aria-label="Toggle menu"
           aria-expanded={menuOpen}
+          aria-controls="mobile-navigation"
           onClick={() => setMenuOpen((v) => !v)}
         >
           <span
@@ -105,12 +106,14 @@ export function Header() {
 function MobileNav({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
     <div
+      id="mobile-navigation"
       className={cn(
         "flex flex-col gap-5 border-b border-white/10 bg-ink-950 px-5 pb-8 sm:px-8 lg:hidden",
         "transition-all duration-500 ease-aura overflow-hidden",
         open ? "max-h-[600px] py-6 opacity-100" : "max-h-0 py-0 opacity-0",
       )}
       aria-hidden={!open}
+      inert={!open ? true : undefined}
     >
       {[...nav, ...headerActions].map((item) => (
         <a
