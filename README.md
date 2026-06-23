@@ -2,6 +2,15 @@
 
 > **Empowering Visionaries.** — A premium, immersive single-page studio website for a fictional digital agency. Built as a production-grade showcase of modern web engineering, motion design, and content-driven component architecture.
 
+<p align="center">
+  <a href="https://auradigital-phi.vercel.app/"><strong>🌐 Live Demo</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/mutlukurt/auradigital"><strong>📦 Repository</strong></a>
+</p>
+
+<p align="center">
+  <img src="public/images/hero-figure.jpg" alt="AURA DIGITAL — Unleashing Digital Aura" width="600" />
+</p>
+
 AURA DIGITAL is a high-fidelity marketing site for a digital studio that "crafts immersive brands, experiences and futures." It presents a hero, services grid, manifesto, capabilities, selected projects, and conversion sections — all engineered with a dark, cinematic aesthetic and solid orange accents.
 
 ---
