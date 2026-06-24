@@ -35,6 +35,7 @@
     @apply font-display font-normal tracking-tight;
     line-height: 1.05;
     overflow-wrap: break-word;
+    word-break: keep-all;
   }
 
   a, button {
