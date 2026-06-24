@@ -22,7 +22,7 @@ export function Hero() {
     <section
       ref={ref}
       id="about"
-      className="relative flex min-h-screen items-center overflow-hidden bg-ink-950 pt-[72px] pb-32"
+      className="relative flex min-h-screen items-center overflow-hidden bg-ink-950 pt-[72px]"
     >
       {/* background glow (solid blurred color) */}
       <div className="pointer-events-none absolute inset-0 z-0">
@@ -97,7 +97,7 @@ export function Hero() {
 
       {/* scroll indicator */}
       <div
-        className="absolute bottom-6 left-1/2 z-[3] flex -translate-x-1/2 flex-col items-center gap-2.5"
+        className="absolute bottom-6 left-1/2 z-[3] hidden -translate-x-1/2 flex-col items-center gap-2.5 md:flex"
         aria-hidden="true"
       >
         <span className="font-body text-[0.65rem] tracking-[0.3em] text-white/70">
