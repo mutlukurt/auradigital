@@ -22,7 +22,7 @@ export function Hero() {
     <section
       ref={ref}
       id="about"
-      className="relative flex min-h-screen items-center overflow-hidden bg-ink-950 pt-[72px]"
+      className="relative flex min-h-screen items-center overflow-hidden bg-ink-950 pt-[72px] pb-32"
     >
       {/* background glow (solid blurred color) */}
       <div className="pointer-events-none absolute inset-0 z-0">
@@ -84,7 +84,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 flex flex-wrap justify-center gap-5"
+          className="mt-10 flex flex-wrap items-center justify-center gap-x-16 gap-y-5"
         >
           <Button href="#work" variant="ghostLight" size="lg">
             View Work
