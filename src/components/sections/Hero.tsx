@@ -84,7 +84,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 flex flex-wrap items-center justify-center gap-x-16 gap-y-5"
+          className="mx-auto mt-10 flex max-w-[480px] flex-wrap items-center justify-between gap-y-5"
         >
           <Button href="#work" variant="ghostLight" size="lg">
             View Work
