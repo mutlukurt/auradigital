@@ -15,7 +15,7 @@ export function Projects() {
           <span className="section-tag mb-5 block">
             PROJECTS • SELECTED WORK • 2026
           </span>
-          <h2 className="text-[clamp(2.6rem,8vw,7rem)] font-black leading-[0.95] tracking-[-0.035em]">
+          <h2 className="text-[clamp(2.6rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.035em]">
             SHOWCASING
             <br />
             THE <span className="text-accent-orange">VIBRANCE.</span>

@@ -63,7 +63,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="font-display text-[clamp(2.8rem,9vw,8.5rem)] font-black leading-[0.92] tracking-[-0.035em]"
+          className="font-display text-[clamp(2.8rem,9vw,8.5rem)] font-normal leading-[0.92] tracking-[-0.035em]"
         >
           UNLEASHING
           <br />
