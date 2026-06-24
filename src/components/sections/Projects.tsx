@@ -15,7 +15,7 @@ export function Projects() {
           <span className="section-tag mb-5 block">
             PROJECTS • SELECTED WORK • 2026
           </span>
-          <h2 className="text-[clamp(2.6rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.035em]">
+          <h2 className="text-[clamp(1.9rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.02em] break-keep">
             SHOWCASING
             <br />
             THE <span className="text-accent-orange">VIBRANCE.</span>
@@ -66,7 +66,7 @@ function ProjectRow({
         <span className="mb-4 block font-body text-xs tracking-[0.24em] text-accent-orange">
           {project.num}
         </span>
-        <h3 className="mb-4 text-[clamp(2.2rem,4.5vw,3.6rem)] tracking-[-0.02em]">
+        <h3 className="mb-4 text-[clamp(1.7rem,4.5vw,3.6rem)] tracking-[-0.01em] break-keep">
           {project.name}
           <span className="text-accent-orange">.</span>
         </h3>

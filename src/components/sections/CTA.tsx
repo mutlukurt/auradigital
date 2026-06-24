@@ -13,7 +13,7 @@ export function CTA() {
       <Container>
         <Reveal className="relative z-[1] text-center">
           <span className="section-tag mb-5 block">— Let&apos;s build</span>
-          <h2 className="text-[clamp(2.6rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.035em]">
+          <h2 className="text-[clamp(1.9rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.02em] break-keep">
             ARE YOU READY TO
             <br />
             ACTIVATE YOUR <span className="text-accent-orange">AURA?</span>

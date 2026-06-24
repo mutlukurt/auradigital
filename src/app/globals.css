@@ -34,6 +34,8 @@
   h1, h2, h3, h4 {
     @apply font-display font-normal tracking-tight;
     line-height: 1.05;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   a, button {

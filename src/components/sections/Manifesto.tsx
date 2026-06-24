@@ -7,7 +7,7 @@ export function Manifesto() {
       <Container>
         <Reveal>
           <span className="section-tag mb-5 block">— Manifesto</span>
-          <h2 className="text-[clamp(2.6rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.035em]">
+          <h2 className="text-[clamp(1.9rem,8vw,7rem)] font-normal leading-[0.95] tracking-[-0.02em] break-keep">
             OUR <span className="text-accent-orange">VIBRATION.</span>
           </h2>
           <p className="mx-auto mt-7 max-w-[620px] text-lg text-white/70">

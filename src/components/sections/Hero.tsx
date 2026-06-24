@@ -48,7 +48,7 @@ export function Hero() {
 
       <motion.div
         style={{ y: contentY, opacity: contentOpacity }}
-        className="container relative z-[2] mx-auto w-full max-w-container px-5 text-center sm:px-8 lg:px-16"
+        className="container relative z-[2] mx-auto w-full max-w-container px-4 text-center sm:px-8 lg:px-16"
       >
         <motion.span
           initial={{ opacity: 0, y: 20 }}
@@ -63,7 +63,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="font-display text-[clamp(2.8rem,9vw,8.5rem)] font-normal leading-[0.92] tracking-[-0.035em]"
+          className="font-display text-[clamp(1.9rem,8vw,8.5rem)] font-normal leading-[0.95] tracking-[-0.02em] break-keep"
         >
           UNLEASHING
           <br />
