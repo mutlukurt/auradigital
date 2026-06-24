@@ -89,7 +89,7 @@ export function Hero() {
           <Button href="#work" variant="ghostLight" size="lg">
             View Work
           </Button>
-          <Button href="#services" variant="link" size="lg">
+          <Button href="#services" variant="link" size="lg" className="px-9">
             Explore Services <span aria-hidden="true">→</span>
           </Button>
         </motion.div>
