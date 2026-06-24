@@ -84,12 +84,12 @@ export function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mx-auto mt-10 flex max-w-[480px] flex-wrap items-center justify-between gap-y-5"
+          className="mx-auto mt-10 flex w-full max-w-[480px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-between sm:gap-y-5"
         >
-          <Button href="#work" variant="ghostLight" size="lg">
+          <Button href="#work" variant="ghostLight" size="lg" className="w-full sm:w-auto">
             View Work
           </Button>
-          <Button href="#services" variant="link" size="lg" className="px-9">
+          <Button href="#services" variant="link" size="lg" className="px-9 sm:px-0 lg:px-9">
             Explore Services <span aria-hidden="true">→</span>
           </Button>
         </motion.div>
