@@ -45,7 +45,7 @@ export function Header() {
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="group relative font-display text-sm text-white/80 transition-colors hover:text-white"
+                  className="group relative font-body text-sm text-white/80 transition-colors hover:text-white"
                 >
                   {item.label}
                   <span className="absolute -bottom-0.5 left-0 h-[1.5px] w-0 bg-accent-orange transition-all duration-400 ease-aura group-hover:w-full" />
@@ -60,7 +60,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="font-display text-sm text-white/70 transition-colors hover:text-white"
+              className="font-body text-sm text-white/70 transition-colors hover:text-white"
             >
               {item.label}
             </a>
@@ -120,7 +120,7 @@ function MobileNav({ open, onClose }: { open: boolean; onClose: () => void }) {
           key={item.href}
           href={item.href}
           onClick={onClose}
-          className="font-display text-lg text-white/80"
+          className="font-body text-lg text-white/80"
         >
           {item.label}
         </a>

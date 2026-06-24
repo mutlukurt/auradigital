@@ -63,7 +63,7 @@ function ProjectRow({
       </div>
 
       <div className={cn("px-2", project.reverse && "lg:order-1")}>
-        <span className="mb-4 block font-display text-xs tracking-[0.24em] text-accent-orange">
+        <span className="mb-4 block font-body text-xs tracking-[0.24em] text-accent-orange">
           {project.num}
         </span>
         <h3 className="mb-4 text-[clamp(2.2rem,4.5vw,3.6rem)] tracking-[-0.02em]">
@@ -75,7 +75,7 @@ function ProjectRow({
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="rounded-full border border-white/20 px-4 py-2 font-display text-[0.72rem] uppercase tracking-[0.16em] text-white/80"
+              className="rounded-full border border-white/20 px-4 py-2 font-body text-[0.72rem] uppercase tracking-[0.16em] text-white/80"
             >
               {tag}
             </span>

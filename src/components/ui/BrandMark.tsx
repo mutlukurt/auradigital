@@ -17,7 +17,7 @@ export function BrandMark({ className }: { className?: string }) {
   return (
     <span className={cn("inline-flex items-center gap-2.5", className)}>
       <BrandLogo />
-      <span className="font-display text-base tracking-wide">
+      <span className="font-body text-base font-bold tracking-wide">
         AURA<span className="text-accent-orange">.</span>DIGITAL
       </span>
     </span>

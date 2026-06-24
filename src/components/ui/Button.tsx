@@ -16,7 +16,7 @@ type ButtonProps = {
 };
 
 const base =
-  "inline-flex items-center justify-center gap-2 font-display font-medium rounded-full transition-all duration-500 ease-aura will-change-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-orange/60 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950";
+  "inline-flex items-center justify-center gap-2 font-body font-medium rounded-full transition-all duration-500 ease-aura will-change-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-orange/60 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950";
 
 const variants: Record<Variant, string> = {
   primary: "bg-white text-black hover:bg-accent-orange hover:text-white",

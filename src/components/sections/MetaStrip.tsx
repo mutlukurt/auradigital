@@ -37,7 +37,7 @@ function MetaItem({
 }) {
   return (
     <div>
-      <span className="mb-2.5 block font-display text-xs uppercase tracking-[0.24em] text-accent-orange">
+      <span className="mb-2.5 block font-body text-xs uppercase tracking-[0.24em] text-accent-orange">
         {label}
       </span>
       <p className="text-white/80">

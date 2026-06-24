@@ -26,7 +26,7 @@ export function ServicesDetail() {
           {capabilities.map((cap, i) => (
             <Reveal key={cap.title} delay={i * 0.1} as="article">
               <div className="h-full rounded-xl border border-black/5 bg-white p-7 transition-all duration-500 ease-aura hover:-translate-y-1.5 hover:shadow-[0_24px_50px_-24px_rgba(0,0,0,0.25)] lg:p-9">
-                <span className="mb-5 block font-display text-xs tracking-[0.2em] text-accent-orange">
+                <span className="mb-5 block font-body text-xs tracking-[0.2em] text-accent-orange">
                   {cap.num}
                 </span>
                 <h3 className="mb-2.5 text-xl text-ink-950">{cap.title}</h3>

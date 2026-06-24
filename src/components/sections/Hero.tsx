@@ -100,7 +100,7 @@ export function Hero() {
         className="absolute bottom-6 left-1/2 z-[3] flex -translate-x-1/2 flex-col items-center gap-2.5"
         aria-hidden="true"
       >
-        <span className="font-display text-[0.65rem] tracking-[0.3em] text-white/70">
+        <span className="font-body text-[0.65rem] tracking-[0.3em] text-white/70">
           SCROLL
         </span>
         <span className="relative h-10 w-px overflow-hidden bg-white/40">

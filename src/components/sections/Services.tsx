@@ -49,7 +49,7 @@ function ServiceCard({
           sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover transition-transform duration-[800ms] ease-aura group-hover:scale-105"
         />
-        <span className="absolute left-5 top-5 rounded-full border border-white/10 bg-black/40 px-3.5 py-1.5 font-display text-xs tracking-[0.2em] text-white backdrop-blur-sm">
+        <span className="absolute left-5 top-5 rounded-full border border-white/10 bg-black/40 px-3.5 py-1.5 font-body text-xs tracking-[0.2em] text-white backdrop-blur-sm">
           {service.index}
         </span>
       </div>
@@ -58,7 +58,7 @@ function ServiceCard({
         <p className="mb-6 text-white/70">{service.description}</p>
         <a
           href="#contact"
-          className="inline-flex items-center gap-1.5 font-display text-sm text-white transition-all duration-300 hover:gap-3 hover:text-accent-orange-soft"
+          className="inline-flex items-center gap-1.5 font-body text-sm text-white transition-all duration-300 hover:gap-3 hover:text-accent-orange-soft"
         >
           Start project <span aria-hidden="true">→</span>
         </a>

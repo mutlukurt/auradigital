@@ -12,7 +12,7 @@ export function Footer() {
             <a href="#top" aria-label="AURA DIGITAL home" className="mb-5 inline-flex">
               <BrandMark />
             </a>
-            <p className="font-display text-xs tracking-[0.22em] text-white/70">
+            <p className="font-body text-xs tracking-[0.22em] text-white/70">
               {brand.tagline}
             </p>
           </div>
@@ -20,7 +20,7 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:gap-8">
             {footerColumns.map((col) => (
               <div key={col.heading}>
-                <h2 className="mb-5 font-display text-xs tracking-[0.24em] text-white/60">
+                <h2 className="mb-5 font-body text-xs tracking-[0.24em] text-white/60">
                   {col.heading}
                 </h2>
                 {col.links.map((link) => (
@@ -40,7 +40,7 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-6 pt-8 sm:flex-row sm:items-center">
           <p className="text-sm text-white/70">
             © {brand.year} {brand.name}. All rights reserved. Designed by{" "}
-            <span className="font-display text-white">{brand.designer}</span>.
+            <span className="font-body font-bold text-white">{brand.designer}</span>.
           </p>
           <SocialLinks />
         </div>
